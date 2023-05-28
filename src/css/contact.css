@@ -1,0 +1,102 @@
+
+.contact-container {
+  padding: 3em;
+  background-image: url('/src/images/backgrounds/venecia.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-subtitle, .contact-title {
+  text-align: center;
+  font-family: 'Sacramento';
+  color: var(--color-black);
+  margin: 20px;
+}
+
+.contact-title {
+  font-size: 3rem;
+}
+
+.contact-subtitle {
+  font-size: 2rem;
+}
+
+.contact-wrapper > * {
+  padding: 1em;
+}
+
+.contact-form {
+  color: var(--color-white);
+  font-family: 'Karla', sans-serif;
+}
+
+.contact-form {
+  background: rgba(0, 0, 0, 0.8);
+  grid-column: 2 / 3;  
+}
+
+.contact-form form label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em;
+}
+
+.contact-form form .block {
+  grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: 0.7em;
+  border: none;
+  margin-top: 10px;
+  background: none;
+  outline: 0;
+  color: var(--color-white);
+  font-size: 0.8em;
+  border: 1px solid var(--color-white);
+}
+
+
+.contact-form form button:focus,
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+  border: 1px solid var(--color-pink);
+  transition: all 0.3s ease-out;
+  outline: 0;
+}
+
+.contact-form form button {
+  background-color: var(--color-black);
+  color: var(--color-pink);
+  text-transform: uppercase;
+  padding: 1em;
+  font-weight: 600;
+  border: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  color: var(--color-darkpink);
+  background-color: var(--color-white);
+  transition: all 1s ease-out;
+  outline: 0;
+}
+
+@media (min-width: 700px) {
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+  .contact-wrapper > * {
+    padding: 1em;
+  }
+}

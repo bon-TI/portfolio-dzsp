@@ -1,0 +1,71 @@
+
+.services {
+  padding: 50px;
+  text-align: center;
+  color: var(--color-white);
+  background-image: url('/src/images/backgrounds/seul-cds.jpg');
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(35, 35, 35, 0.8);
+  background-blend-mode: saturation;
+}
+
+.services h2 {
+  font-family: 'Sacramento';
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.services p {
+  font-family: 'Karla';
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.services .services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+}
+
+.services .services-grid .service {
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .services-grid .service .service-logo {
+  display: grid;
+  place-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 500px;
+  color: var(--color-white);
+  border: 0.5px solid var(--color-darkpink);
+  margin-bottom: 20px;
+}
+
+.services .services-grid .service i {
+  font-size: 30px;
+}
+
+.services .services-grid .service h3 {
+  font-family: 'Karla';
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.services .services-grid .service p {
+  font-size: 16px;
+  font-family: 'Karla';
+}
+
+@media (max-width: 768px) {
+  .services .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
