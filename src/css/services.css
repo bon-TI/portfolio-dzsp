@@ -3,7 +3,7 @@
   padding: 50px;
   text-align: center;
   color: var(--color-white);
-  background-image: url('/src/images/backgrounds/seul-cds.jpg');
+  background-image: url('../images/backgrounds/seul-cds.jpg');
   background-position: center;
   background-size: cover;
   background-color: rgba(35, 35, 35, 0.8);

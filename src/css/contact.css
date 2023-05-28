@@ -1,7 +1,7 @@
 
 .contact-container {
   padding: 3em;
-  background-image: url('/src/images/backgrounds/venecia.jpg');
+  background-image: url('../images/backgrounds/venecia.jpg');
   background-position: center;
   background-size: cover;
 }

@@ -1,17 +1,17 @@
 @font-face {
     font-family: 'Karla';
     font-style: normal;
-    src: url('/src/fonts/Karla-Variable.ttf');
+    src: url('../fonts/Karla-Variable.ttf');
 }
 
 @font-face {
     font-family: 'Karla Italic';
     font-style: italic;
-    src: url('/src/fonts/Karla-Italic-Variable.ttf');
+    src: url('../fonts/Karla-Italic-Variable.ttf');
 }
 
 @font-face {
     font-family: 'Sacramento';
     font-style: normal;
-    src: url('/src/fonts/Sacramento-Regular.ttf');
+    src: url('../fonts/Sacramento-Regular.ttf');
 }
