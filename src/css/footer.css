@@ -1,6 +1,6 @@
 
 footer {
-  background: var(--color-black);
+  background-color: var(--color-black);
   padding: 30px 0px;
   font-family: 'Karla', sans-serif;
   text-align: center;
